@@ -17,7 +17,7 @@ namespace MongoExample
         static void Main(string[] args)
         {
             string connectionString =
-              @"mongodb://yourazureconnection";
+              @"mongodb://fmcpostcode:QHXZeLna4hMNzgcSB1vpytWk5dnOurqXaO3A9CT4tzU50zLGdtvaEezTLyv9yGoFP7O70ORNL8iUzVW3Ytb9LA==@fmcpostcode.documents.azure.com:10255/?ssl=true&replicaSet=globaldb";
 
             MongoClientSettings settings = MongoClientSettings.FromUrl(
               new MongoUrl(connectionString)
